@@ -1,0 +1,17 @@
+{
+  "name": "servidor3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servidor3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^2.1.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "mv": "^2.1.1"
+  }
+}

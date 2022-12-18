@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario</title>
+  <style type="text/css">
+  	body{background-color: black;}
+  	input {background-color:blue; color: white; margin: 10px; padding: 15px;}
+  	p{text-align: center;}
+  	form{  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;}
+
+  </style>
+</head>
+<body>
+  <p>Cada botón hara un script de powershell</p>
+  <form action="Script" method="post">
+  <input type="submit" name="numero1" value="Get-process">
+  <input type="submit" name="numero2" value="Get-WmiObject Win32_Service | Select Name">
+  <input type="submit" name="numero3" value="Get-LocalUser">
+  <input type="submit" name="numero4" value="Get-Printer">
+ <input type="submit" name="numero5" value="Get-DnsClientCache">
+</form>
+</body>
+</html>
